@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Buenard:400,700|Yanone+Kaffeesatz:400,700);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700|Source+Sans+Pro:300,400,700);
+body {
+    background-color: #DBDBDB;
+    color: #333;
+    font-family: "Buenard", serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+a {
+    color: #67ad00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7fd600;
+}
+
+#container {
+    width: 850px;
+    margin: 50px auto;
+}
+
+header {
+    *zoom: 1;
+}
+
+header:before, header:after {
+    display: table;
+    content: "";
+}
+
+header:after {
+    clear: both;
+}
+
+#address {
+    float: left;
+}
+
+#contact {
+    float: right;
+    text-align: right;
+}
+
+.name {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+/* Content */
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 8px;
+    *zoom: 1;
+}
+
+section ul li:before, section ul li:after {
+    display: table;
+    content: "";
+}
+
+section ul li:after {
+    clear: both;
+}
+
+section ul li span {
+    display: inline-block;
+}
+
+.indent {
+    margin-left: 105px;
+    padding-left: 10px;
+    border-left: 3px solid #ddd;
+    width: 600px;
+}
+
+.date {
+    width: 110px;
+    margin-right: 20px;
+    text-align: right;
+    float: left;
+}
+
+.position {
+    font-style: italic;
+}
+
+.institute {
+    font-weight: 600;
+}
+
+.title {
+    display: block;
+    float: left;
+    width: 680px;
+}
+
+.meta {
+    display: block;
+    margin-left: 130px;
+    font-size: 16px;
+    line-height: 20px;
+    clear: both;
+}
+
+.code-name {
+    display: block;
+    float: left;
+    width: 90px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.code-desc {
+    display: block;
+    float: left;
+    width: 690px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+}
+/*
+ *  TOP BAR STYLE
+ */
+
+.topbar {
+    font-family: "Source Sans Pro", "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    padding: 0 0 30px;
+    font-size: 28px;
+    letter-spacing: -0.02rem;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 300;
+}
+.topbar span {
+    font-weight: 700;
+    font-size: 42px;
+}
+.topbar a {
+    background-image: none;
+    -webkit-transition: color 0.2s;
+}
+
+.topbar a:hover {
+    color: steelblue;
+}
+
+.topbar ul {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.topbar li {
+    display: inline;
+    padding: 0 9px;
+}
+
+.topavatar {
+    padding: 50px 0 0;
+    text-align: center;
+}
+
+.topavatar img {
+    width: 100px;
+    height: 100px;
+}
